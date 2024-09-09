@@ -65,3 +65,12 @@ num1 = input("Enter a number")
 num2 = input("Enter a number")
 answer = float(num1) + float(num2)
 print(f"Your answer is: {answer}")
+
+# Mad libs game.
+print("Let's play mad libs!")
+colour = input("What is yout favourite colour? ")
+plural_noun = input("Enter a plural noun: ")
+celebrity = input("Who is your favourite celebrity? ")
+print(f"Roses are {colour}")
+print(f"{plural_noun} are blue")
+print(f"I love {celebrity}")
