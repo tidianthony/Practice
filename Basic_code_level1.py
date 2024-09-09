@@ -1,0 +1,33 @@
+# Greetings.
+greetings = "Hello!, hope you are having a good day."
+print(greetings)
+
+# Playing with variables, input and casting.
+name = input("What is your name? ")
+age = input("How old are you? ")
+house_number = input("Enter your house number: ")
+street_name = input("Enter your street name: ")
+print(f"This is {name} and she is {age} years old. she lives at house number {house_number} on {street_name}")
+
+# Declearing variables.
+num_1 = 99, 23
+num_2 = 23
+num_3 = 150
+string_1 = "100"
+
+''' Cating the variables as follows:
+num_1 into an integer
+num_2 into a float
+num_3 into a string
+string_1 into an integer '''
+
+num_1 = int(num_1)
+num_2 = float(num_2)
+num_3 = str(num_3)
+string_1 = int(string_1)
+
+# Printing the variables according to their cast type.
+print(type(num_1))
+print(type(num_2))
+print(type(num_3))
+print(type(string_1))
