@@ -1,6 +1,6 @@
 # Welcome to the Fun Interactive Story Generator
 
-# Step 1: Collect various user inputs
+# Collect various user inputs
 
 # String inputs
 user_name = input("Enter your name: ")
@@ -19,7 +19,7 @@ distance_travelled = input("Enter how many kilometers you traveled last week (us
 pet_name = input("Enter your pet's name (if you don't have one, make one up!): ")
 dream_car = input("Enter your dream car: ")
 
-# Step 2: Type casting and conversions
+# Type casting and conversions
 
 # Casting age to integer
 age = int(age)
@@ -33,7 +33,7 @@ distance_travelled = float(distance_travelled)
 # Convert lucky number to string for later story
 lucky_number_str = str(lucky_number)
 
-# Step 3: Perform basic arithmetic calculations
+# Perform basic arithmetic calculations
 
 # Let's have some fun with numbers
 number1 = float(input("Enter a random number (this will be part of the fun calculations!): "))
@@ -45,11 +45,11 @@ subtraction_result = number1 - number2
 multiplication_result = number1 * number2
 division_result = number1 / number2  # Division, no error handling for introduction purposes
 
-# Step 4: Story-driven casting and manipulated numbers
+# Story-driven casting and manipulated numbers
 lucky_number_multiplied = int(lucky_number) * 3
 age_and_lucky_number_sum = age + lucky_number_float
 
-# Step 5: Generate the creative story using all these inputs and calculations
+# Generate the creative story using all these inputs and calculations
 
 story = (f"""
 Here's a fun story about {user_name.upper()} and their amazing adventures!
@@ -78,9 +78,9 @@ Math makes every journey more fun!
 a calculator in hand, and plenty of laughs from all the funny calculations!
 """)
 
-# Step 6: Display the story to the user
+# Display the story to the user
 print("\nHere is your story:")
 print(story)
 
-# Bonus: Closing message
+# Closing message
 print("\nThanks for playing the Fun Interactive Story Generator!")
